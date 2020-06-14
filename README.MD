@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/56ecf6f3-e575-46e5-9011-9cc717b49b8e/deploy-status)](https://app.netlify.com/sites/mystifying-hypatia-72056f/deploys)

@@ -1,0 +1,100 @@
+<html>
+  <head>
+    <title>Anakshiant - Survey</title>
+    <link rel="shortcut icon" href="favicon.ico">
+  </head>
+  <body>
+    <!-- Header of the page -->
+    <header class="header">
+      <div class="header_logo">
+        <div class="header_logo_main">A</div>
+        <div class="header_logo_rest">nakshiant</div>
+      </div>
+    </header>
+
+    <section class="section">
+      <!-- Introduce them what we gonna make -->
+      <div class="section_introduction">
+        <div class="section_introduction_head">
+          Welcome 😍
+        </div>
+        <p class="section_introduction_text">
+          Thank you for visiting, this is a general survey we are conducting to
+          know how much will you be interested in using a product which will
+          solve day to day problem of your QA and Devs to test the UI manualy.
+        </p>
+        <ul class="section_list">
+          <li class="section_introduction_text">
+            Developers will just create a json file describing the ui features
+            and will be in their source control so that CI can run the ui tests
+            every time.
+          </li>
+          <li class="section_introduction_text">
+            We will provide easy integration with Github Actions, BitBucket and
+            GitLab.
+          </li>
+          <li class="section_introduction_text">
+            QA team only has to test the new features as they won't be needing
+            regressions.
+          </li>
+          <li class="section_introduction_text">
+            tests will run every time on a fresh environment with modern
+            browsers like chrome, mozilla, edge, opera etc.
+          </li>
+          <li class="section_introduction_text">
+            Non technical team member can directly create new tests from the UI
+            no need to understand JSON files.
+          </li>
+          <li class="section_introduction_text">
+            All of this will happen on cloud we will run thoses tests on our
+            cloud runners. so you don't need to create anything in your
+            infrastructure.
+          </li>
+        </ul>
+      </div>
+      <!-- Now give them a form to fill their response -->
+      <div class="section_form">
+        <div class="input">
+          <label class="input_label" for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            class="input_text"
+            placeholder="enter your name"
+          />
+        </div>
+        <div class="input">
+          <label class="input_label" for="email">Email</label>
+          <input
+            type="text"
+            id="email"
+            class="input_text"
+            placeholder="enter your email"
+            type="email"
+          />
+        </div>
+        <div class="input">
+          <label class="input_label" for="response">Are you intrested?</label>
+          <select id="response" class="input_select">
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+          </select>
+        </div>
+        <div class="input_text_wrapper">
+          <label class="input_label" for="use_case"
+            >Tell us about your usecase</label
+          >
+          <textarea
+            class="input_text_area"
+            id="use_case"
+            cols="10"
+            rows="30"
+          ></textarea>
+        </div>
+        <div class="button_container">
+          <button id="submit" class="button">Submit</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
